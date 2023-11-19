@@ -7,7 +7,7 @@ Diabetaku adalah Aplikasi berbasis website yang dapat digunakan untuk memprediks
 1. Kloning Repositori Ini
 
 ```
-git clone https://github.com/iqbalpurba26/Prediksi-Diabetes.git
+https://github.com/iqbalpurba26/Sistem-Prediksi-Diabetes.git
 ```
 
 2. Persiapan Lingkungan
