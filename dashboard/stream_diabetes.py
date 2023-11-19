@@ -4,9 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
-# Load Model
-# diabetes_model = pickle.load(open('../diabetes_model.sav', 'rb'))
-diabetes_model = joblib.load("../diabetes_model.sav")
+diabetes_model = joblib.load("../model/diabetes_model.sav")
 df = pd.read_csv('diabets_dataset_clean.csv')
 
 X = df.drop(columns='diabetes', axis=1)
