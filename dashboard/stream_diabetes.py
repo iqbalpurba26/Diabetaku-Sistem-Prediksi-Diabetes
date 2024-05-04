@@ -4,10 +4,9 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
-<<<<<<< HEAD
+
 # Load Model
-=======
->>>>>>> 680e1de040028df2f2b40bc49056a64f46598ea8
+
 diabetes_model = joblib.load("../model/diabetes_model.sav")
 df = pd.read_csv('diabets_dataset_clean.csv')
 
